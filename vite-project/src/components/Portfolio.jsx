@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaGithub } from "react-icons/fa";
 import { Element } from 'react-scroll';
+import img from "../assets/images/image1.png"
 
 export default function Portfolio() {
   return (
@@ -12,7 +13,7 @@ export default function Portfolio() {
         <div className=' flex flex-col gap-4'>
         <h1 className=' text-3xl text-white'>Portfolio</h1>
 
-          <img className='h-[250px] w-[400px] shadow-xl shadow-gray-900  rounded-2xl' src="\src\assets\images\image1.png" alt="" />
+          <img className='h-[250px] w-[400px] shadow-xl shadow-gray-900  rounded-2xl' src={img} alt="" />
         </div>
         <div className='flex justify-center items-start flex-col'>
           <div className='text-2xl md:text-3xl text-white font-semibold'>Project #1</div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaGithub } from "react-icons/fa";
+import img from "../assets/images/image2.png"
 
 export default function Project() {
     return (
@@ -14,7 +15,7 @@ export default function Project() {
             </div>
 
             <div className=' shadow-xl shadow-gray-900 rounded-2xl' >
-                <img className='h-[250px] w-[400px] rounded-2xl ' src="\src\assets\images\image2.png" alt="" />
+                <img className='h-[250px] w-[400px] rounded-2xl ' src={img} alt="" />
 
             </div>
         </div>

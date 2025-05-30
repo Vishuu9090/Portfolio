@@ -1,11 +1,12 @@
 import React from 'react'
 import { FaGithub } from "react-icons/fa";
+import img from "../assets/images/image3.png"
 
 export default function Project3() {
   return (
     <div className='  flex  flex-col md:gap-10  md:flex-row items-center justify-center mt-20 '>
             <div className=' rounded-2xl h-[250px] w-[400px] shadow-2xl shadow-gray-900 '>
-              <img className='shadow-2xl shadow-gray-900 h-[250px] w-[400px] rounded-2xl' src="\src\assets\images\image3.png" alt="" />
+              <img className='shadow-2xl shadow-gray-900 h-[250px] w-[400px] rounded-2xl' src={img} alt="" />
             </div>
 
             <div className='flex justify-center ml-[-80px] md:ml-[80px] items-start  flex-col'>

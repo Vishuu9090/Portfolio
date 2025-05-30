@@ -6,6 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 import Pdf from "../assets/pdf/VISHAL2.pdf"
 import { motion } from 'framer-motion';
 
+import img1 from "../assets/images/first image.jpg"
 
 export default function Journey() {
     return (
@@ -64,7 +65,7 @@ export default function Journey() {
                 className=''>
 
                 <div className=' shadow-xl rounded-2xl shadow-gray-900 h-[320px] w-[400px]'>
-                    <img className='shadow-xl rounded-2xl shadow-gray-900' src="\src\assets\images\first image.jpg" alt="" />
+                    <img className='shadow-xl rounded-2xl shadow-gray-900' src={img1} alt="" />
                 </div>
             </motion.div>
 
