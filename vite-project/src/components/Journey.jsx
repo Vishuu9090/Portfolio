@@ -3,9 +3,8 @@ import { TypeAnimation } from 'react-type-animation';
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import Pdf from "../assets/pdf/VISHAL2.pdf"
+import Pdf from "../assets/pdf/VISHAL.pdf"
 import { motion } from 'framer-motion';
-
 import img1 from "../assets/images/first image.jpg"
 
 export default function Journey() {
@@ -43,7 +42,7 @@ export default function Journey() {
                         <div className=' flex mt-5 gap-4 items-center'>
                             <a
                                 href={Pdf}
-                                download="VISHALResume.pdf"
+                                download="VISHAL_Resume.pdf"
                                 className='shadow-lg shadow-gray-950 border-amber-500 border-2 p-2 rounded-lg md:text-xl hover:scale-110 transition-all duration-300 text-amber-200'
                             >
                                 Download CV
