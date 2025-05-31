@@ -1,32 +1,48 @@
-import React from 'react'
-import { FaHtml5 } from "react-icons/fa6";
-import { FaCss3Alt } from "react-icons/fa6";
+import React from 'react';
+import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa6";
 import { AiOutlineJavaScript } from "react-icons/ai";
-import { FaReact } from "react-icons/fa6";
 import { Element } from 'react-scroll';
 
 export default function Skills() {
   return (
-<Element name="Skills">
-    <div className=' flex justify-center mt-25 '>
-      <div>
-        <div className='text-white text-3xl md:text-3xl flex justify-center '>Skills</div>
-        <div className='text-white text-lg mt-2 md:text-lg pl-4  '>I worked on various frontend projects. Check them<a className='underline pl-1' href=""> here.</a></div>
-        <div className='mx-25 mt-6 rounded-lg border-amber-600 bg-gray-800 border-2 h-[180px] w-[250px]'>
-          <div className='flex justify-center text-xl font-bold pt-3 text-white'>Frontend</div>
-          <div className='flex justify-around py-5'>
-            <div className=' flex items-center textlg  text-orange-600'><FaHtml5/><span className='text-amber-400 pl-1'>HTML</span></div>
-            <div className=' flex items-center text-lg  text-blue-600'><FaCss3Alt/><span className='text-amber-400 pl-1'>CSS</span></div>
-          </div>
-          <div className='flex justify-around py-2.5'>
-            <div className=' flex items-center text-lg text-amber-300'><AiOutlineJavaScript/><span className='text-amber-400 pl-1'>JavaScript</span></div>
-            <div className=' flex items-center text-lg text-blue-600'><FaReact/><span className='text-amber-400 pl-1'>React</span></div>
+    <Element name="Skills">
+      <div className="flex justify-center mt-16 px-4">
+        <div className="text-center max-w-md w-full">
+          {/* Title */}
+          <div className="text-white text-2xl sm:text-3xl font-semibold">Skills</div>
+
+          {/* Description */}
+          <div className="text-white text-base sm:text-lg mt-2">
+            I worked on various frontend projects. Check them
+            <a className="underline pl-1 text-amber-400" href="#">here.</a>
           </div>
 
+          {/* Card */}
+          <div className="mt-6 rounded-lg border-amber-600 bg-gray-800 border-2 px-4 py-5 w-full sm:w-[300px] mx-auto">
+            <div className="text-white text-xl font-bold text-center mb-4">Frontend</div>
+
+            {/* Row 1 */}
+            <div className="flex justify-around mb-4">
+              <div className="flex items-center text-orange-600 text-lg">
+                <FaHtml5 /><span className="text-amber-400 pl-2">HTML</span>
+              </div>
+              <div className="flex items-center text-blue-600 text-lg">
+                <FaCss3Alt /><span className="text-amber-400 pl-2">CSS</span>
+              </div>
+            </div>
+
+            {/* Row 2 */}
+            <div className="flex justify-around">
+              <div className="flex items-center text-amber-300 text-lg">
+                <AiOutlineJavaScript /><span className="text-amber-400 pl-2">JavaScript</span>
+              </div>
+              <div className="flex items-center text-blue-600 text-lg">
+                <FaReact /><span className="text-amber-400 pl-2">React</span>
+              </div>
+            </div>
+          </div>
         </div>
-      
       </div>
-    </div>
     </Element>
-  )
+  );
 }
