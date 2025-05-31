@@ -40,8 +40,8 @@ export default function About() {
                     <p className=' text-white text-xl md:text-2xl font-semibold mb-3'>VISHAL</p>
 
                     <div className=' flex h-20 w-30  items-start justify-start gap-3'>
-                        <button className=' flex items-center justify-center bg-amber-600 text-white rounded-xl text-3xl  h-[40px] w-[40px] hover:scale-110 transition-all duration-300 hover:bg-amber-700'><FaGithub /></button>
-                        <button className=' flex items-center justify-center bg-amber-600 text-white rounded-xl text-3xl  h-[40px] w-[40px] hover:scale-110 transition-all duration-300 hover:bg-amber-700'><FaLinkedin /></button>
+                        <button className=' flex items-center justify-center shadow-sm shadow-gray-900 bg-amber-600 text-white rounded-xl text-3xl  h-[40px] w-[40px] hover:scale-110 transition-all duration-300 hover:bg-amber-700'><FaGithub /></button>
+                        <button className=' flex items-center justify-center shadow-sm shadow-gray-900 bg-amber-600 text-white rounded-xl text-3xl  h-[40px] w-[40px] hover:scale-110 transition-all duration-300 hover:bg-amber-700'><FaLinkedin /></button>
                     </div>
                 </div>
                 <p className=' text-amber-600 text-xl md:text-2xl font-semibold'>@2025 VISHAL</p>

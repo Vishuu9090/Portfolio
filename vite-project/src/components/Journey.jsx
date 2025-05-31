@@ -47,9 +47,9 @@ export default function Journey() {
                             >
                                 Download CV
                             </a>
-                            <button className=' bg-amber-700 p-2  rounded-full text-white hover:shadow-lg hover:shadow-gray-900  hover:scale-110  transition-all duration-300'><FaGithub className=' text-2xl md:text-4xl' /></button>
-                            <button className=' bg-amber-700 p-2  rounded-full text-white hover:shadow-lg hover:shadow-gray-900 hover:scale-110  transition-all duration-300'><FaInstagram className=' text-2xl md:text-4xl' /></button>
-                            <button className=' bg-amber-700 p-2 text-xl rounded-full text-white hover:shadow-lg hover:shadow-gray-900 hover:scale-110 transition-all duration-300'><FaLinkedin className=' text-2xl md:text-4xl' /></button>
+                            <button className=' bg-amber-700 p-2  rounded-full text-white hover:shadow-lg hover:shadow-gray-900  hover:scale-110 shadow-sm shadow-gray-900 transition-all duration-300'><FaGithub className=' text-2xl md:text-4xl' /></button>
+                            <button className=' bg-amber-700 p-2  rounded-full text-white hover:shadow-lg hover:shadow-gray-900 hover:scale-110 shadow-sm shadow-gray-900 transition-all duration-300'><FaInstagram className=' text-2xl md:text-4xl' /></button>
+                            <button className=' bg-amber-700 p-2 text-xl rounded-full text-white hover:shadow-lg hover:shadow-gray-900 hover:scale-110 shadow-sm shadow-gray-900 transition-all duration-300'><FaLinkedin className=' text-2xl md:text-4xl' /></button>
                         </div>
                     </div>
 

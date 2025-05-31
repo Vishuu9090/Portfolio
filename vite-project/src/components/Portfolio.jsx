@@ -19,8 +19,8 @@ export default function Portfolio() {
           <div className='text-2xl md:text-3xl text-white font-semibold'>Project #1</div>
           <div className='text-white md:text-xl pt-2'>UI for frontend development using React.</div>
           <div className='flex justify-between pt-3'>
-            <button className=' rounded-lg px-1 md:text-lg mr-8 bg-amber-600 hover:bg-amber-700 hover:scale-110 transition-all duration-300'><p className='text-white'>View Site</p></button>
-            <button className=' flex items-center justify-center bg-amber-600 text-white rounded-xl md:text-3xl text-3xl hover:scale-110 transition-all duration-300 h-[40px] w-[40px] hover:bg-amber-700'><FaGithub /></button>
+            <button className=' rounded-lg px-1 md:text-lg mr-8 bg-amber-600 hover:bg-amber-700 hover:scale-110 transition-all shadow-sm shadow-gray-900 duration-300'><p className='text-white'>View Site</p></button>
+            <button className=' flex items-center justify-center bg-amber-600 text-white rounded-xl md:text-3xl text-3xl hover:scale-110 shadow-sm shadow-gray-900 transition-all duration-300 h-[40px] w-[40px] hover:bg-amber-700'><FaGithub /></button>
           </div>
         </div>
 
