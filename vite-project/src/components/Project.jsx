@@ -40,7 +40,7 @@ export default function Project() {
           Amazon clone.
         </div>
         <div className='flex flex-wrap gap-4'>
-          <button className='rounded-lg px-4 py-2 text-sm md:text-base shadow-sm shadow-gray-900 bg-amber-600 hover:scale-110 transition-all duration-300 hover:bg-amber-700 text-white'>
+          <button className='rounded-lg px-4 py-2 text-sm md:text-base font-semibold shadow-sm shadow-gray-900 bg-amber-600 hover:scale-110 transition-all duration-300 hover:bg-amber-700 text-white'>
             View Site
           </button>
           <button className='flex items-center justify-center shadow-sm shadow-gray-900 bg-amber-600 text-white hover:scale-110 transition-all duration-300 rounded-xl text-2xl md:text-3xl h-10 w-10 hover:bg-amber-700'>

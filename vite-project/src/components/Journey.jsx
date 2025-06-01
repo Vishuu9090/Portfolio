@@ -118,22 +118,22 @@ export default function Journey() {
                         <a
                             href={Pdf}
                             download="VISHAL_Resume.pdf"
-                            className='border-2 border-amber-500 text-amber-200 px-4 py-2 rounded-lg text-sm md:text-base hover:scale-105 transition-all duration-300'
+                            className=' flex justify-center items-center border-2 border-amber-500 text-amber-200 font-semibold  px-4 py-2 shadow-md shadow-gray-900 rounded-lg text-sm md:text-base hover:scale-105 transition-all duration-300'
                         >
                             Download CV
                         </a>
                         <a href="https://github.com/" target='_blank' rel='noreferrer'>
-                            <button className='bg-amber-700 p-3 rounded-full text-white hover:scale-110 transition duration-300'>
+                            <button className='bg-amber-700 p-3 rounded-full text-white shadow-md shadow-gray-900 hover:scale-110 transition duration-300'>
                                 <FaGithub className='text-xl md:text-2xl' />
                             </button>
                         </a>
                         <a href="https://instagram.com/" target='_blank' rel='noreferrer'>
-                            <button className='bg-amber-700 p-3 rounded-full text-white hover:scale-110 transition duration-300'>
+                            <button className='bg-amber-700 p-3 rounded-full shadow-md  shadow-gray-900 text-white hover:scale-110 transition duration-300'>
                                 <FaInstagram className='text-xl md:text-2xl' />
                             </button>
                         </a>
                         <a href="https://linkedin.com/" target='_blank' rel='noreferrer'>
-                            <button className='bg-amber-700 p-3 rounded-full text-white hover:scale-110 transition duration-300'>
+                            <button className='bg-amber-700 p-3 rounded-full shadow-md shadow-gray-900 text-white hover:scale-110 transition duration-300'>
                                 <FaLinkedin className='text-xl md:text-2xl' />
                             </button>
                         </a>

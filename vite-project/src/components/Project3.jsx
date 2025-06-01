@@ -48,7 +48,7 @@ export default function Project3() {
           Basic HTML and CSS project.
         </div>
         <div className='flex gap-4 pt-3 flex-wrap'>
-          <button className='rounded-lg px-4 py-2 text-sm md:text-base bg-amber-600 text-white shadow-sm shadow-gray-900 hover:scale-110 transition-all duration-300 hover:bg-amber-700'>
+          <button className='rounded-lg px-4 py-2 text-sm md:text-base font-semibold bg-amber-600 text-white shadow-sm shadow-gray-900 hover:scale-110 transition-all duration-300 hover:bg-amber-700'>
             View Site
           </button>
           <button className='flex items-center justify-center bg-amber-600 text-white shadow-sm shadow-gray-900 hover:scale-110 transition-all duration-300 rounded-xl text-2xl md:text-3xl h-10 w-10 hover:bg-amber-700'>
