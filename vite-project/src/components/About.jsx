@@ -87,7 +87,7 @@ export default function About() {
             </div>
 
             {/* Contact Form */}
-            <form className="bg-gray-800 border-2 border-amber-600 rounded-lg p-4 flex flex-col gap-3 w-full max-w-md">
+            <form className="bg-gray-800 border-2 sm:h-[300px]  sm:w-[350px] border-amber-600 rounded-lg p-4 flex flex-col gap-3 w-full max-w-md">
               <h3 className="text-2xl text-white font-semibold text-center">Let's connect!</h3>
               <input
                 className="bg-gray-400 border-2 border-gray-800 rounded-lg p-2 shadow-md"
