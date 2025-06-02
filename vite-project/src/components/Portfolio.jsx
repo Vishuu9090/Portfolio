@@ -52,14 +52,14 @@ export default function Portfolio() {
       >
         <Element name="Portfolio">
           <div className="py-12 px-4">
-            <div className="flex flex-col md:flex-row items-center justify-center gap-8">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-40">
               {/* Left: Title + Image */}
-              <div className="flex flex-col gap-4 items-center">
-                <h1 className="text-3xl text-white font-semibold text-center md:text-left">
+              <div className="flex flex-col gap-7 items-center">
+                <h1 className="sm:text-4xl text-3xl sm:ml-[-300px] text-white font-semibold text-center md:text-left">
                   Portfolio
                 </h1>
                 <img
-                  className="w-full max-w-sm rounded-2xl shadow-xl shadow-gray-900 object-cover"
+                  className="w-full  sm:w-120 sm:h-80 rounded-2xl shadow-xl shadow-gray-900 object-cover"
                   src={img}
                   alt="Project Screenshot"
                 />

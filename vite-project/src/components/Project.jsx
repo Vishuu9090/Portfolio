@@ -59,9 +59,9 @@ export default function Project() {
           </div>
 
           {/* Image Section */}
-          <div className="shadow-xl shadow-gray-900 rounded-2xl w-full max-w-sm">
+          <div className="shadow-xl shadow-gray-900 sm:w-120 sm:h-80 rounded-2xl ">
             <img
-              className="rounded-2xl w-full h-auto object-cover"
+              className="rounded-2xl w-full h-auto sm:w-120 sm:h-80 object-cover"
               src={img}
               alt="Amazon Clone Project"
             />
