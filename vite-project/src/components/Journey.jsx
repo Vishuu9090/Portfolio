@@ -148,9 +148,9 @@ export default function Journey() {
                 transition={{ duration: 0.8, ease: "easeOut" }}
                 className='flex justify-center'
             >
-                <div className='shadow-xl rounded-2xl shadow-gray-900 w-64 h-64 sm:w-80 sm:h-80 overflow-hidden'>
+                <div className='shadow-xl rounded-2xl shadow-gray-900  w-64 h-64 sm:w-100 sm:h-100 overflow-hidden'>
                     <img
-                        className='w-full h-full object-cover rounded-2xl'
+                        className='w-full h-full  object-cover rounded-2xl'
                         src={img1}
                         alt="Vishal"
                     />

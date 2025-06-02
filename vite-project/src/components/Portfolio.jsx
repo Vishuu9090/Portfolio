@@ -75,10 +75,10 @@ export default function Portfolio() {
                 </div>
 
                 <div className="flex gap-4 flex-wrap">
-                  <button className="bg-amber-600 hover:bg-amber-700 text-white font-semibold px-4 py-2 rounded-lg shadow-sm shadow-gray-900 transition-all duration-300 text-sm md:text-base">
+                  <button className="bg-amber-600  text-white font-semibold px-4 py-2 rounded-lg shadow-sm shadow-gray-900 hover:scale-110 hover:bg-amber-700 transition-all duration-300 text-sm md:text-base">
                     View Site
                   </button>
-                  <button className="flex items-center justify-center bg-amber-600 hover:bg-amber-700 text-white rounded-xl text-2xl md:text-3xl h-10 w-10 shadow-sm shadow-gray-900 transition-all duration-300">
+                  <button className="flex items-center justify-center bg-amber-600  text-white rounded-xl text-2xl md:text-3xl h-10 w-10 shadow-sm shadow-gray-900 hover:scale-110 hover:bg-amber-700 transition-all duration-300">
                     <FaGithub />
                   </button>
                 </div>
