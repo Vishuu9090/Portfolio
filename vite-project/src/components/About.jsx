@@ -16,7 +16,7 @@ export default function About() {
         viewport={{ once: true, amount: 0.5 }}
       >
         <Element name="About">
-          <div className="px-4 md:px-10 py-10">
+          <div className="px-4 md:px-10  py-10">
             {/* About Section */}
             <div className="flex flex-col items-center">
               <h2 className="text-3xl md:text-4xl text-white font-semibold">
