@@ -3,7 +3,7 @@ import Navbar  from "./components/Navbar"
 import Journey from "./components/Journey"
 import Tech from "./components/Tech"
 import Skills from "./components/Skills"
-import Portfolio from './components/Portfolio'
+import Portfolio2 from './components/Portfolio'
 import Project from './components/Project'  
 import Project3 from './components/Project3'
 import Experience from './components/Experience'
@@ -15,7 +15,7 @@ export default function App() {
       <Journey/>
       <Tech/>
       <Skills/>
-      <Portfolio/>
+      <Portfolio2/>
       <Project/>
       <Project3/>
       <Experience/>
