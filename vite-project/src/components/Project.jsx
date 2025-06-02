@@ -15,7 +15,7 @@ export default function Project() {
         }}
         viewport={{ once: true, amount: 0.5 }}
       >
-        <div className="flex flex-col-reverse md:flex-row md:items-center justify-center px-4 py-12 gap-6">
+        <div className="flex flex-col-reverse md:flex-row md:items-center justify-center px-4 sm:mt-15 py-12 gap-6">
           {/* Text Section */}
           <div className="max-w-md w-full">
             <div className="text-2xl md:text-3xl text-white font-semibold mb-2">

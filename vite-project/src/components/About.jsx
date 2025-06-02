@@ -16,7 +16,7 @@ export default function About() {
         viewport={{ once: true, amount: 0.5 }}
       >
         <Element name="About">
-          <div className="px-4 md:px-10  py-10">
+          <div className="px-4 md:px-10 sm:mt-20 py-10">
             {/* About Section */}
             <div className="flex flex-col items-center">
               <h2 className="text-3xl md:text-4xl text-white font-semibold">
@@ -74,7 +74,7 @@ export default function About() {
             </div>
 
             {/* Footer */}
-            <div className="flex flex-col md:flex-row justify-between items-center mt-16 px-4 md:px-20 gap-4">
+            <div className="flex flex-col md:flex-row justify-between items-center mt-25 px-4 md:px-20 gap-4">
               <div>
                 <p className="text-white text-xl md:text-2xl font-semibold">
                   VISHAL

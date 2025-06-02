@@ -15,7 +15,7 @@ export default function Project3() {
         }}
         viewport={{ once: true, amount: 0.5 }}
       >
-        <div className="flex flex-col md:flex-row items-center justify-center mt-20 px-4 gap-6 md:gap-45">
+        <div className="flex flex-col md:flex-row sm:mt-15 items-center justify-center px-4 gap-6 md:gap-45">
           {/* Image */}
           <div className="rounded-2xl sm:w-120 sm:ml-[170px] sm:h-80 shadow-2xl shadow-gray-900 ">
             <img

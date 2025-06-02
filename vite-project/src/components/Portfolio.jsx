@@ -18,7 +18,7 @@ export default function Portfolio() {
         viewport={{ once: true, amount: 0.5 }}
       >
         <Element name="Portfolio">
-          <div className="py-12 px-4">
+          <div className="mt-40 px-4">
             <div className="flex flex-col md:flex-row items-center justify-center gap-40">
               {/* Left: Title + Image */}
               <div className="flex flex-col gap-7 items-center">
