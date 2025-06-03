@@ -40,40 +40,58 @@ export default function About() {
                     <p className="text-amber-600 font-semibold">Projects</p>
                   </div>
                 </div>
+                
+                {/* contact form */}
+                        <form
+                          className="bg-gray-800 border-2 sm:h-90  sm:w-100 border-amber-600 rounded-lg p-4 flex flex-col gap-3 w-full max-w-md"
+                          onSubmit={e => {
+                          e.preventDefault();
+                          const name = e.target.elements.name.value;
+                          const email = e.target.elements.email.value;
+                          const message = e.target.elements.message.value;
+                          const mailtoLink = `mailto:vishuu9090@gmail.com?subject=Message from ${encodeURIComponent(
+                            name
+                          )}&body=${encodeURIComponent(
+                            `Name: ${name}\nEmail: ${email}\n\n${message}`
+                          )}`;
+                          window.location.href = mailtoLink;
+                          }}
+                        >
+                          <h3 className="text-2xl sm:text-3xl text-white font-semibold text-center">
+                          Let's connect!
+                          </h3>
+                          <input
+                          className="bg-gray-400 border-2 border-gray-800 rounded-lg p-2 shadow-md"
+                          type="text"
+                          name="name"
+                          placeholder="Your Name..."
+                          required
+                          />
+                          <input
+                          className="bg-gray-400 border-2 border-gray-800 rounded-lg p-2 shadow-md"
+                          type="email"
+                          name="email"
+                          placeholder="Your Email..."
+                          required
+                          />
+                          <textarea
+                          className="bg-gray-400 border-2 border-gray-800 rounded-lg p-2 shadow-md resize-none"
+                          name="message"
+                          placeholder="Your Message"
+                          rows={4}
+                          required
+                          ></textarea>
+                          <button
+                          type="submit"
+                          className="bg-amber-600 hover:bg-amber-700 text-white rounded-lg p-2 hover:scale-105 transition-all duration-300"
+                          >
+                          Send Message
+                          </button>
+                        </form>
+                        </div>
+                      </div>
 
-                {/* Contact Form */}
-                <form className="bg-gray-800 border-2 sm:h-90  sm:w-100 border-amber-600 rounded-lg p-4 flex flex-col gap-3 w-full max-w-md">
-                  <h3 className="text-2xl sm:text-3xl text-white font-semibold text-center">
-                    Let's connect!
-                  </h3>
-                  <input
-                    className="bg-gray-400 border-2 border-gray-800 rounded-lg p-2 shadow-md"
-                    type="text"
-                    placeholder="Your Name..."
-                    required
-                  />
-                  <input
-                    className="bg-gray-400 border-2 border-gray-800 rounded-lg p-2 shadow-md"
-                    type="email"
-                    placeholder="Your Email..."
-                    required
-                  />
-                  <textarea
-                    className="bg-gray-400 border-2 border-gray-800 rounded-lg p-2 shadow-md resize-none"
-                    placeholder="Your Message"
-                    rows={4}
-                  ></textarea>
-                  <button
-                    type="submit"
-                    className="bg-amber-600 hover:bg-amber-700 text-white rounded-lg p-2 hover:scale-105 transition-all duration-300"
-                  >
-                    Send Message
-                  </button>
-                </form>
-              </div>
-            </div>
-
-            {/* Footer */}
+                      {/* Footer */}
             <div className="flex flex-col md:flex-row justify-between items-center mt-25 px-4 md:px-20 gap-4">
               <div>
                 <p className="text-white text-xl md:text-2xl font-semibold">
