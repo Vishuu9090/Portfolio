@@ -15,10 +15,10 @@ export default function Project() {
         }}
         viewport={{ once: true, amount: 0.5 }}
       >
-        <div className="flex flex-col-reverse md:flex-row md:items-center justify-center px-4 sm:mt-15 py-12 gap-6">
+        <div className="flex flex-col-reverse md:flex-row md:items-center justify-center px-4 mt-7 sm:mt-15 py-12 gap-6">
           {/* Text Section */}
-          <div className="max-w-md w-full">
-            <div className="text-2xl md:text-3xl text-white font-semibold mb-2">
+          <div className="max-w-md pl-8 mt-5 w-full">
+            <div className="text-2xl md:text-3xl text-white  font-semibold mb-2">
               Project #2
             </div>
             <div className="text-white text-base md:text-lg mb-4">

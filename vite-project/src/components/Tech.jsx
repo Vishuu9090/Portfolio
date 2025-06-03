@@ -15,8 +15,8 @@ export default function Tech() {
         }}
         viewport={{ once: true, amount: 0.5 }}
       >
-        <div className="flex flex-col items-center sm:mt-30 px-4">
-          <p className="text-white text-2xl sm:text-3xl font-semibold mb-6 text-center">
+        <div className="flex flex-col items-center mt-15 sm:mt-30 px-4">
+          <p className="text-white text-3xl sm:text-3xl font-semibold mb-6 text-center">
             My Tech Stack
           </p>
 

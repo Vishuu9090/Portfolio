@@ -18,11 +18,11 @@ export default function Portfolio() {
         viewport={{ once: true, amount: 0.5 }}
       >
         <Element name="Portfolio">
-          <div className="mt-40 px-4">
-            <div className="flex flex-col md:flex-row items-center justify-center gap-40">
+          <div className="sm:mt-40 mt-20 px-4">
+            <div className="flex flex-col md:flex-row items-center justify-center sm:gap-40 gap-10">
               {/* Left: Title + Image */}
               <div className="flex flex-col gap-7 items-center">
-                <h1 className="sm:text-4xl text-3xl sm:ml-[-300px] text-white font-semibold text-center md:text-left">
+                <h1 className="sm:text-5xl text-3xl sm:ml-[-300px] text-white font-semibold text-center md:text-left">
                   Portfolio
                 </h1>
                 <img
@@ -33,7 +33,7 @@ export default function Portfolio() {
               </div>
 
               {/* Right: Description + Buttons */}
-              <div className="flex flex-col justify-start max-w-md">
+              <div className="flex flex-col justify-start  max-w-md">
                 <div className="text-2xl md:text-3xl text-white font-semibold mb-2">
                   Project #1
                 </div>

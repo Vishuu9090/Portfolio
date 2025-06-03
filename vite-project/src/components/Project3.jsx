@@ -17,16 +17,16 @@ export default function Project3() {
       >
         <div className="flex flex-col md:flex-row sm:mt-15 items-center justify-center px-4 gap-6 md:gap-45">
           {/* Image */}
-          <div className="rounded-2xl sm:w-120 sm:ml-[170px] sm:h-80 shadow-2xl shadow-gray-900 ">
+          <div className="rounded-2xl sm:w-120 sm:ml-[170px] sm:h-80 shadow-xl shadow-gray-900 ">
             <img
-              className="rounded-2xl w-full h-auto  object-cover shadow-2xl sm:w-120 sm:h-80 shadow-gray-900"
+              className="rounded-2xl w-full h-auto  object-cover  sm:w-120 sm:h-80 "
               src={img}
               alt="Project 3"
             />
           </div>
 
           {/* Content */}
-          <div className="flex flex-col items-start w-full max-w-md">
+          <div className="flex flex-col pl-8 items-start w-full max-w-md">
             <div className="text-2xl md:text-3xl mt-4 text-white font-semibold">
               Project #3
             </div>

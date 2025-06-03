@@ -14,7 +14,7 @@ export default function Experience() {
         viewport={{ once: true, amount: 0.5 }}
       >
         <div className="flex flex-col items-center sm:mt-40 mt-12 px-4">
-          <div className="text-3xl sm:text-4xl font-semibold text-white">Experience</div>
+          <div className="text-3xl sm:text-5xl font-semibold text-white">Experience</div>
 
           <div className="border-2 border-amber-700 bg-gray-500 rounded-lg p-4 mt-6 w-full max-w-sm md:max-w-md">
             <span className="text-xl sm:text-3xl font-semibold text-white">

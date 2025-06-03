@@ -17,10 +17,10 @@ export default function Skills() {
         viewport={{ once: true, amount: 0.5 }}
       >
         <Element name="Skills">
-          <div className="flex justify-center sm:mt-30 px-4">
+          <div className="flex justify-center mt-20 sm:mt-30 px-4">
             <div className="text-center max-w-md w-full">
               {/* Title */}
-              <div className="text-white text-2xl sm:text-3xl font-semibold">
+              <div className="text-white text-3xl sm:text-3xl font-semibold">
                 Skills
               </div>
 
