@@ -98,12 +98,12 @@ export default function About() {
                   VISHAL
                 </p>
                 <div className="flex gap-4 mt-2">
-                  <a href="#" aria-label="GitHub">
+                  <a href="https://github.com/Vishuu9090" aria-label="GitHub">
                     <button className="flex items-center justify-center bg-amber-600 text-white text-2xl h-10 w-10 rounded-xl shadow-md hover:scale-110 hover:bg-amber-700 transition-all duration-300">
                       <FaGithub />
                     </button>
                   </a>
-                  <a href="#" aria-label="LinkedIn">
+                  <a href="https://www.linkedin.com/in/vsknl" aria-label="LinkedIn">
                     <button className="flex items-center justify-center bg-amber-600 text-white text-2xl h-10 w-10 rounded-xl shadow-md hover:scale-110 hover:bg-amber-700 transition-all duration-300">
                       <FaLinkedin />
                     </button>

@@ -43,17 +43,17 @@ export default function Journey() {
                         >
                             Download CV
                         </a>
-                        <a href="https://github.com/" target='_blank' rel='noreferrer'>
+                        <a href="https://github.com/Vishuu9090" target='_blank' rel='noreferrer'>
                             <button className='bg-amber-700 p-3 rounded-full text-white shadow-md shadow-gray-900 hover:scale-110 transition duration-300'>
                                 <FaGithub className='text-xl md:text-2xl' />
                             </button>
                         </a>
-                        <a href="https://instagram.com/" target='_blank' rel='noreferrer'>
+                        {/* <a href="https://instagram.com/" target='_blank' rel='noreferrer'>
                             <button className='bg-amber-700 p-3 rounded-full shadow-md  shadow-gray-900 text-white hover:scale-110 transition duration-300'>
                                 <FaInstagram className='text-xl md:text-2xl' />
                             </button>
-                        </a>
-                        <a href="https://linkedin.com/" target='_blank' rel='noreferrer'>
+                        </a> */}
+                        <a href="https://www.linkedin.com/in/vsknl" target='_blank' rel='noreferrer' title="LinkedIn Profile">
                             <button className='bg-amber-700 p-3 rounded-full shadow-md shadow-gray-900 text-white hover:scale-110 transition duration-300'>
                                 <FaLinkedin className='text-xl md:text-2xl' />
                             </button>

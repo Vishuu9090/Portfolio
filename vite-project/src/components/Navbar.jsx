@@ -10,7 +10,6 @@ export default function Navbar() {
         { href: "About", name: "Contact" },
     ]
 
-    const [open, close] = useState(false)
 
     const toggleMenu = () => {
         close(!open)
