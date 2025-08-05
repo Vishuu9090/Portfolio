@@ -7,7 +7,7 @@ import img1 from "../assets/images/first image.jpg";
 
 export default function Journey() {
     return (
-        <div className='flex flex-col-reverse md:flex-row items-center justify-center md:justify-around px-4 py-8 gap-8'>
+        <div className='flex flex-col-reverse md:flex-row items-center  justify-center md:justify-around px-4 py-8 gap-8'>
 
             {/* Text Section */}
             <motion.div
